@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="491.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="br.edu.ifro.control.principalController">
+    <children>
+        <Button fx:id="btnSoma" layoutX="195.0" layoutY="21.0" onAction="#somar" prefHeight="42.0" prefWidth="62.0" text="Somar" />
+        <Label fx:id="label" layoutX="126.0" layoutY="121.0" minHeight="16" minWidth="69" />
+      <TextField fx:id="txtn1" layoutX="27.0" layoutY="29.0" />
+      <TextField fx:id="txtn2" layoutX="27.0" layoutY="75.0" />
+      <Label layoutX="27.0" layoutY="58.0" text="Numero 2" />
+      <Label layoutX="27.0" layoutY="14.0" text="Numero 1" />
+      <TextField fx:id="txtResult" layoutX="27.0" layoutY="138.0" />
+      <Label layoutX="27.0" layoutY="112.0" text="Resultado" />
+      <Button fx:id="btnMult" layoutX="195.0" layoutY="108.0" onAction="#multiplicar" prefHeight="42.0" prefWidth="62.0" text="Somar" />
+      <Button fx:id="btnDiv" layoutX="291.0" layoutY="109.0" onAction="#dividir" prefHeight="42.0" prefWidth="62.0" text="Somar" />
+      <Button fx:id="btnSub" layoutX="291.0" layoutY="21.0" onAction="#subtrair" prefHeight="42.0" prefWidth="62.0" text="Subtrair" />
+    </children>
+</AnchorPane>
